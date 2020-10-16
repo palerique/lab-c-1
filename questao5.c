@@ -29,7 +29,7 @@ int main() {
         ++ano;
         aumento *= 2;
         salario *= (aumento + 1.0);
-        printf("O salario em %d = R$ %.2f aumento de %.2f%% \n", ano, salario, aumento *100);
+        printf("O salario em %d = R$ %.2f aumento de %.2f%% \n", ano, salario, aumento * 100);
     }
 
     //2006 = 1000 * 1.015

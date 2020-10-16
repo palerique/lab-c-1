@@ -27,7 +27,7 @@ int main() {
         printf("%d/%d!", antepenultimo, antepenultimo);
         unsigned long long fatorial = 1;
         int contadorFatorial = antepenultimo;
-        for( ; contadorFatorial > 0; fatorial *= contadorFatorial-- );
+        for (; contadorFatorial > 0; fatorial *= contadorFatorial--);
 
         soma = soma + antepenultimo / (double) fatorial;
 
