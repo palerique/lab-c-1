@@ -2,42 +2,27 @@
 
 /*
 aluno: Paulo Henrique Lerbach Rodrigues
-Prova Parcial 1 de LTP1
-Q2 - Faça um programa que receba três números e mostre-os em ordem decrescente.
+Prova Parcial 2 de LTP1
+
+Q2 - Escreva um programa que leia um numero inteiro positivo `n` e em seguida imprima `n` linhas do chamado triangulo de pascal.
 */
 
 int main() {
-    int x, y, z;
+    int n;
 
-    printf("Entre com o valor de x ");
-    scanf("%d", &x);
-    printf("Entre com o valor de y ");
-    scanf("%d", &y);
-    printf("Entre com o valor de z ");
-    scanf("%d", &z);
+    printf("Quantas linhas do triangulo de Pascal devem ser calculadas? ");
+    scanf("%d", &n);
 
-    if (x < z) {
-        // troca x com z
-        x = x - z;
-        z = x + z;
-        x = z - x;
+    for (int linha = 1; linha <= n; linha++) {
+        int coluna = 1;
+
+        for (int indiceDaColuna = 1; indiceDaColuna <= linha; indiceDaColuna++) {
+            printf("%d ", coluna);
+            coluna = coluna * (linha - indiceDaColuna) / indiceDaColuna;
+        }
+
+        printf("\n");
     }
-
-    if (x < y) {
-        // troca x com y
-        x = x - y;
-        y = x + y;
-        x = y - x;
-    }
-
-    if (y < z) {
-        // troca y com z
-        y = y - z;
-        z = y + z;
-        y = z - y;
-    }
-
-    printf("\nA ordem decrescente dos números é: %d %d %d", x, y, z);
 
     return 1;
 }
