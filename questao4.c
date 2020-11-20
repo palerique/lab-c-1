@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*
- *aluno: Paulo Henrique Lerbach Rodrigues
+ *aluno: Paulo Henrique Lerbach Rodrigues - RA 22051629
  *Prova Parcial 2 de LTP1
  *
  *Q4 - O imperador romano Julio Cesar usava um metodo de criptografia para mandar mensagens criptografadas para seus generais.

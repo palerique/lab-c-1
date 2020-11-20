@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*
-aluno: Paulo Henrique Lerbach Rodrigues
+aluno: Paulo Henrique Lerbach Rodrigues - RA 22051629
 Prova Parcial 2 de LTP1
 
 Q5 - Faca um programa que le um inteiro K e uma cadeia de caracteres criptografadas pela cifra de Cesar

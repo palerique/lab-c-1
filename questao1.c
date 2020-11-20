@@ -3,7 +3,7 @@
 static const int TAMANHO_DO_ARRAY = 10;
 
 /*
-aluno: Paulo Henrique Lerbach Rodrigues
+aluno: Paulo Henrique Lerbach Rodrigues - RA 22051629
 Prova Parcial 2 de LTP1
 
 Q1 - Ler um vetor de 10 elementos.

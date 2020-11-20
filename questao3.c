@@ -2,7 +2,7 @@
 #include <string.h>
 
 /*
- *aluno: Paulo Henrique Lerbach Rodrigues
+ *aluno: Paulo Henrique Lerbach Rodrigues - RA 22051629
  *Prova Parcial 2 de LTP1
  *
  *Q3 - uma frase e dita ser palindrome se ela e a mesma se lida da esquerda par a direita

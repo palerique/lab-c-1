@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*
-aluno: Paulo Henrique Lerbach Rodrigues
+aluno: Paulo Henrique Lerbach Rodrigues - RA 22051629
 Prova Parcial 2 de LTP1
 
 Q2 - Escreva um programa que leia um numero inteiro positivo `n` e em seguida imprima `n` linhas do chamado triangulo de pascal.
